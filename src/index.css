@@ -44,14 +44,14 @@
     --gold-dark: 40 75% 45%;
     --cream: 40 30% 96%;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 222 47% 18%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 45 80% 60%;
+    --sidebar-primary-foreground: 222 47% 18%;
+    --sidebar-accent: 222 40% 25%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 222 40% 25%;
+    --sidebar-ring: 45 80% 60%;
   }
 
   .dark {
