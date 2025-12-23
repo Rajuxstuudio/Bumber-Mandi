@@ -1,13 +1,19 @@
 import RajasthanMap from "@/components/RajasthanMap";
 import LoginCard from "@/components/LoginCard";
 import LanguageToggle from "@/components/LanguageToggle";
-import BackgroundMap from "@/components/BackgroundMap";
+import backgroundMap from "@/assets/background-map.svg";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
-      {/* Background Map Pattern */}
-      <BackgroundMap />
+    <div 
+      className="min-h-screen bg-background relative overflow-hidden"
+      style={{ 
+        backgroundImage: `url(${backgroundMap})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       
       {/* Language Toggle */}
       <div className="absolute top-4 right-4 z-20">
