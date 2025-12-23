@@ -12,7 +12,6 @@ import {
   Bell,
   LogOut
 } from "lucide-react";
-import WheatLogo from "./WheatLogo";
 import {
   Sidebar,
   SidebarContent,
@@ -65,12 +64,9 @@ export function AppSidebar() {
       <SidebarHeader className="p-4 border-b border-white/10">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center">
-            <WheatLogo className="text-gold" size={24} />
+            <Wheat className="text-gold h-6 w-6" />
           </div>
-          <div className="flex flex-col">
-            <span className="text-gold font-semibold text-sm">Bumper</span>
-            <span className="text-gold font-bold text-lg leading-tight">Mandi</span>
-          </div>
+          <span className="text-gold font-bold text-lg">Bumper Mandi</span>
         </div>
       </SidebarHeader>
 
